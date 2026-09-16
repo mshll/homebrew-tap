@@ -1,8 +1,8 @@
 cask "umber" do
-  version "0.1.0-beta.3"
+  version "0.1.0-beta.3,3"
   sha256 "6870708c1db923d3427bdb70f49c07994f2784082b7fce656d25f2b181903021"
 
-  url "https://github.com/mshll/umber-releases/releases/download/downloads/Umber-#{version}.dmg"
+  url "https://github.com/mshll/umber-releases/releases/download/downloads/Umber-#{version.csv.first}.dmg"
   name "Umber"
   desc "Floating markdown notes"
   homepage "https://umber.mshl.me"
