@@ -1,6 +1,6 @@
 cask "umber" do
-  version "0.1.0-beta.3,3"
-  sha256 "6870708c1db923d3427bdb70f49c07994f2784082b7fce656d25f2b181903021"
+  version "0.1.0-beta.5,5"
+  sha256 "333da5ee5bc16bf6b8376919d9dc8df641a22ee78a6e0afae47f9804c4d9af70"
 
   url "https://github.com/mshll/umber-releases/releases/download/downloads/Umber-#{version.csv.first}.dmg"
   name "Umber"
@@ -13,7 +13,7 @@ cask "umber" do
   end
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Umber.app"
 
