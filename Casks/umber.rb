@@ -1,14 +1,14 @@
 cask "umber" do
-  version "0.1.0-beta.9,9"
-  sha256 "273f549f6bfee00c2fdb31d1e8d77ff6d5b030ebcfc267036d89ee089b60cf20"
+  version "0.1.0,10"
+  sha256 "2dee2c1491e8eb1acab5eaab0bb924ec6b6b5f25cdcff37d914ee397cd8413c3"
 
-  url "https://github.com/mshll/umber-releases/releases/download/v#{version.csv.first}/Umber.dmg"
+  url "https://github.com/mshll/umber/releases/download/v#{version.csv.first}/Umber.dmg"
   name "Umber"
   desc "Floating markdown notes"
   homepage "https://tryumber.app"
 
   livecheck do
-    url "https://raw.githubusercontent.com/mshll/umber-releases/main/appcast.xml"
+    url "https://raw.githubusercontent.com/mshll/umber/main/appcast.xml"
     strategy :sparkle
   end
 
