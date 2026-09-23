@@ -1,6 +1,6 @@
 cask "umber" do
-  version "0.2.0,11"
-  sha256 "cc82f8a53a15592ebc9062a5a88f3aae7d91d08577d61ed223cb0521587d9f21"
+  version "0.2.1,12"
+  sha256 "e534dc04c1948879b8c32cffe677284cf28f44320225783c9682cfabf1314eff"
 
   url "https://github.com/mshll/umber/releases/download/v#{version.csv.first}/Umber.dmg"
   name "Umber"
