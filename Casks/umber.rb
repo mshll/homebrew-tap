@@ -1,6 +1,6 @@
 cask "umber" do
   version "0.1.0,10"
-  sha256 "2dee2c1491e8eb1acab5eaab0bb924ec6b6b5f25cdcff37d914ee397cd8413c3"
+  sha256 "ef3a405a92675c0c129d9b4dcc620c924607ac418a36d137fdd39c93961de187"
 
   url "https://github.com/mshll/umber/releases/download/v#{version.csv.first}/Umber.dmg"
   name "Umber"
@@ -8,7 +8,7 @@ cask "umber" do
   homepage "https://tryumber.app"
 
   livecheck do
-    url "https://raw.githubusercontent.com/mshll/umber/main/appcast.xml"
+    url "https://raw.githubusercontent.com/mshll/umber/main/updates.xml"
     strategy :sparkle
   end
 
