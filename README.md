@@ -1,16 +1,15 @@
 # mshll/homebrew-tap
 
-Homebrew cask for [Umber](https://umber.mshl.me), floating markdown notes for macOS.
+Homebrew cask for [Cirrus](https://trycirrus.app), notes that float, for macOS.
 
 ```sh
-brew install --cask mshll/tap/umber
+brew install --cask mshll/tap/cirrus
 ```
 
-Installing this way skips the quarantine step a direct download needs, because Homebrew does not
-attach the quarantine flag to what it installs. Umber is beta and signed ad-hoc rather than
-notarised, so a DMG downloaded from the site does need that step.
+Cirrus was called Umber until 0.2.1. `cask_renames.json` maps the old `umber` cask to `cirrus`, so
+`brew upgrade` moves existing installs over.
 
-Umber updates itself through Sparkle, which is why the cask is marked `auto_updates`: `brew
+Cirrus updates itself through Sparkle, which is why the cask is marked `auto_updates`: `brew
 upgrade` leaves it alone rather than fighting the in-app updater.
 
-This tap holds the cask only. Umber's source is not public.
+This tap holds the cask only. Cirrus's source is not public.
