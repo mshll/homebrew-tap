@@ -1,21 +1,21 @@
-cask "umber" do
-  version "0.2.1,12"
-  sha256 "e534dc04c1948879b8c32cffe677284cf28f44320225783c9682cfabf1314eff"
+cask "cirrus" do
+  version "0.3.0,14"
+  sha256 "ac6c0581344cb2092d62d4923fe2d657f9753f3017cfee4f907e0ae6231debb6"
 
-  url "https://github.com/mshll/umber/releases/download/v#{version.csv.first}/Umber.dmg"
-  name "Umber"
+  url "https://github.com/mshll/cirrus/releases/download/v#{version.csv.first}/Cirrus.dmg"
+  name "Cirrus"
   desc "Floating markdown notes"
-  homepage "https://tryumber.app"
+  homepage "https://trycirrus.app"
 
   livecheck do
-    url "https://raw.githubusercontent.com/mshll/umber/main/updates.xml"
+    url "https://raw.githubusercontent.com/mshll/cirrus/main/updates.xml"
     strategy :sparkle
   end
 
   auto_updates true
   depends_on macos: :tahoe
 
-  app "Umber.app"
+  app "Cirrus.app"
 
   zap trash: [
     "~/Library/Caches/com.mshl.umber",
