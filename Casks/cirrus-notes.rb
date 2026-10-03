@@ -1,6 +1,6 @@
 cask "cirrus-notes" do
-  version "0.6.0"
-  sha256 "4ec1e9cc768a0fd091d865925cd3916c0f95a04ca59dee1ecb344b70c86f32ba"
+  version "0.6.1"
+  sha256 "4e82875e82f733a5216458ede70d41ee19a7616e5cfcf70e06a321f98098dfa5"
 
   url "https://github.com/mshll/cirrus/releases/download/v#{version}/Cirrus.dmg"
   name "Cirrus"
