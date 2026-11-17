@@ -1,6 +1,6 @@
 cask "ghostwriter" do
-  version "1.1.1"
-  sha256 "292196ba7115b8574ae44692fc68ddc1c6b340ae27429ea9474426a8b125206f"
+  version "1.2.0"
+  sha256 "556ffd349d6789595a4e7ad8362f8a460a0b2ada5de0d43a24da149506d4cdd1"
 
   url "https://github.com/mshll/ghostwriter/releases/download/v#{version}/Ghostwriter.dmg"
   name "Ghostwriter"
